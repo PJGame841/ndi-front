@@ -7,16 +7,6 @@ export default function about() {
           width='100%'
         />
       </div>
-      <div>
-      
-
-      window.addEventListener('keyup', (e) => {
-      console.log(e.key);
-      pressed.push(e.key);
-      pressed.splice(-secretCode.length - 1, pressed.length - secretCode);
-      console.log(pressed);
-      });
-      </div>  
 
       <div class='proclamation'>
         <h1>
