@@ -64,11 +64,11 @@ export default function Login() {
         <input id='password' type='password' required />
         <button type='submit'>Se connecter</button>
       </form>
-      <Link href='/register'>S'enregistrer</Link>
-      <div class='row'>
-        <div class='col-md-3'>
+      <Link href='/register'>S&apos;enregistrer</Link>
+      <div className='row'>
+        <div className='col-md-3'>
           <a
-            class='btn btn-outline-dark'
+            className='btn btn-outline-dark'
             href={process.env.NEXT_PUBLIC_API_URL + '/auth/google'}
             role='button'
           >
@@ -80,9 +80,9 @@ export default function Login() {
             Login with Google
           </a>
         </div>
-        <div class='col-md-3'>
+        <div className='col-md-3'>
           <a
-            class='btn btn-outline-dark'
+            className='btn btn-outline-dark'
             href={process.env.NEXT_PUBLIC_API_URL + '/auth/facebook'}
             role='button'
           >
@@ -94,9 +94,9 @@ export default function Login() {
             Login with Facebook
           </a>
         </div>
-        <div class='col-md-3'>
+        <div className='col-md-3'>
           <a
-            class='btn btn-outline-dark'
+            className='btn btn-outline-dark'
             href={process.env.NEXT_PUBLIC_API_URL + '/auth/github'}
             role='button'
           >
@@ -113,13 +113,8 @@ export default function Login() {
         rel='stylesheet'
         href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
         integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm'
-        crossorigin='anonymous'
+        crossOrigin='anonymous'
       />
-      <script
-        src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
-        integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl'
-        crossorigin='anonymous'
-      ></script>
     </>
   );
 }
