@@ -51,7 +51,7 @@ export default function Login() {
       const resu = await res2.json();
       console.log(resu);
     } catch (e) {
-      console.log(e);
+      console.log('Erreur' + e);
     }
   };
 
